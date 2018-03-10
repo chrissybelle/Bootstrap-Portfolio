@@ -1,0 +1,176 @@
+body {
+    background-image: url(../images/gplaypattern.png);
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* NAV BAR */
+.navbar {
+    background-color: #ffffff;
+    height: 60px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 30px;
+}
+
+.container-fluid, .navbar-header {
+    height: 60px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 38px;
+    display: inline;
+    padding: 8px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.navbar-right {
+    padding: 20px 0;
+}
+
+.navbar-right li {
+    display: inline;
+}
+
+.nav-link {
+    width: 270px;
+    padding: 3px 2px;
+    color: #999;
+    display: inline;
+    list-style-type: none;
+    border-right: 1px solid #999;
+}
+
+a.nav-link {
+    color: #999;
+    text-decoration: none;
+    border-right: 1px solid #999;
+    padding-right: 6px;
+}
+
+.navbar-right li:last-child a.nav-link {
+    border-right: none;
+}
+
+a.nav-link:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a.nav-link:active {
+    color: #4aaaa5;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+/* MAIN CONTENT */
+
+.main-heading {
+    font-size: 30px;
+}
+
+.aside-heading {
+    font-size: 20px;
+}
+
+.main-heading, .aside-heading {
+    color: #4aaaa5; 
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 20px 15px;
+}
+
+.panel {
+    background-color: #fff;
+}
+
+.panel-aside {
+
+} 
+
+.connect {
+    width: 57px;
+    height: auto;
+    padding: 2px;
+}
+
+.connect-1 {
+    width: 50px;
+    height: auto;
+    padding: 4px 0px 0px 3px;
+    margin-bottom: 4px;
+}
+
+.connect, .connect-1 {
+    float: left;
+    margin: 0 auto;
+}
+
+.connect:hover {
+    opacity: 0.3;
+}
+
+.connect-1:hover {
+    opacity: 0.3;
+}
+
+.container-content {
+    margin-bottom: 50px;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #666666;
+    color: #dddddd;
+    font-size: 12px;
+    border-top: 7px solid #4aaaa5;
+    text-align: center;
+    padding: 35px 0 50px 0;
+    height: 60px;
+}
+
+/* ABOUT PAGE-SPECIFIC */
+.profile-image {
+    height: 150px;
+    width: auto;
+    margin-right: 10px;
+    float: left;
+}
+
+.profile {
+    line-height: 2;
+}
+
+/* PORTFOLIO PAGE-SPECIFIC */
+.project-labels {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    text-align: center;
+    padding: 5px 0;
+    width: 81%;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+.portfolio-img:hover {
+    opacity: 0.3;
+}
